@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang-19",
+            "intelliSenseMode": "linux-clang-x64",
+            "cStandard": "gnu23",
+            "cppStandard": "gnu++23",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "compilerArgs": [
+                "-stdlib=libc++",
+                "@CMakeFiles/main.dir/main.cpp.o.modmap"
+            ]
+        }
+    ],
+    "version": 4
+}
