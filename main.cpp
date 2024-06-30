@@ -1,8 +1,7 @@
 import std;
 
-int
-main()
+auto main() -> int
 {
-    std::print("Hello, world\n!");
+    std::println("Hello, world!");
     return 0;
 }
