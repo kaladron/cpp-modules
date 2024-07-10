@@ -1,6 +1,6 @@
 # This requires a recent nightly build.
 # This will be part of CMake 3.30.0.
-cmake_minimum_required(VERSION 3.29.0 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.30 FATAL_ERROR)
 
 # Enables the Standard module support. This needs to be done
 # before selecting the languages.
